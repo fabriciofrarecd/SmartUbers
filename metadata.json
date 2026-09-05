@@ -1,0 +1,6 @@
+{
+  "name": "Inteligência Operacional Motorista - Sorocaba e Votorantim",
+  "description": "Aplicativo de apoio operacional, semáforo de ganhos, análise de trânsito em tempo real e mapa de calor proprietário para motoristas de aplicativo em Sorocaba e Votorantim.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

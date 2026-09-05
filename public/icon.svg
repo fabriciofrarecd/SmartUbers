@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="108" fill="#090d16"/>
+  <!-- Radial glow -->
+  <circle cx="256" cy="256" r="200" fill="url(#glow)" opacity="0.25"/>
+  <!-- Outer ring with route pattern -->
+  <circle cx="256" cy="256" r="170" stroke="#1e293b" stroke-width="8" stroke-dasharray="16 12"/>
+  
+  <!-- Semaphore lights container -->
+  <rect x="196" y="116" width="120" height="280" rx="30" fill="#0f172a" stroke="#334155" stroke-width="6"/>
+  
+  <!-- Green Light (Profit/Go) - prominent and glowing -->
+  <circle cx="256" cy="336" r="36" fill="#10b981"/>
+  <circle cx="256" cy="336" r="36" fill="url(#greenGlow)" opacity="0.8"/>
+  <circle cx="256" cy="336" r="18" fill="#a7f3d0" opacity="0.6"/>
+
+  <!-- Yellow Light (Caution) -->
+  <circle cx="256" cy="256" r="28" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="256" cy="256" r="12" fill="#fde68a" opacity="0.4"/>
+
+  <!-- Red Light (Stop/Unfavorable) -->
+  <circle cx="256" cy="176" r="28" fill="#ef4444" opacity="0.4"/>
+  <circle cx="256" cy="176" r="12" fill="#fca5a5" opacity="0.4"/>
+
+  <!-- Speedometer / navigation arrows indicator -->
+  <path d="M140 256 A 116 116 0 0 1 372 256" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 8" opacity="0.6"/>
+  <path d="M256 420 L270 448 L256 442 L242 448 Z" fill="#38bdf8"/>
+  
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="greenGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </radialGradient>
+  </defs>
+</svg>
